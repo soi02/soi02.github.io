@@ -269,3 +269,33 @@ footer a:not(.nav-link) {
 .entry-title a {
   text-decoration: none;
 }
+
+<!-- 내가 추가한 코드 -->
+.project {
+  position: relative;
+}
+
+.project img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.project .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project:hover .overlay {
+  opacity: 1;
+}
