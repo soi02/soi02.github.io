@@ -133,6 +133,8 @@ img.avatar {
 /* Portfolio */
 .portolio-section .container {
   padding: 0;
+  padding-top: 60px;   
+  padding-bottom: 60px;
 }
 
 .portfolio-item {
@@ -140,9 +142,10 @@ img.avatar {
   overflow: hidden;
   text-align: center;
   margin: 0;
+  margin-bottom: 40px; /* 각 항목 사이의 아래쪽 간격 추가 */
 }
 
-<!-- 내가 추가한 코드 -->
+/*내가추가한코드 */
 .portfolio-item img {
   width: 75%; /* 이미지 크기를 줄이려면 90% 또는 다른 값으로 조정 */
   max-width: 250px; /* 최대 너비를 지정해 더 이상 커지지 않도록 설정 */
