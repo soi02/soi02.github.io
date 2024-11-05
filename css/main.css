@@ -142,6 +142,13 @@ img.avatar {
   margin: 0;
 }
 
+<!-- 내가 추가한 코드 -->
+.portfolio-item img {
+  width: 90%; /* 이미지 크기를 줄이려면 90% 또는 다른 값으로 조정 */
+  max-width: 250px; /* 최대 너비를 지정해 더 이상 커지지 않도록 설정 */
+  transition: transform 0.2s ease-in-out;
+}
+
 .portfolio-item figcaption {
   position: absolute;
   top: auto;
