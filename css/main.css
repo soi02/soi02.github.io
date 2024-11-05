@@ -145,12 +145,13 @@ img.avatar {
   margin-bottom: 40px; /* 각 항목 사이의 아래쪽 간격 추가 */
 }
 
-/*내가추가한코드 */
+/*내가추가한코드 
 .portfolio-item img {
   width: 75%; /* 이미지 크기를 줄이려면 90% 또는 다른 값으로 조정 */
-  max-width: 250px; /* 최대 너비를 지정해 더 이상 커지지 않도록 설정 */
-  transition: transform 0.2s ease-in-out;
+ /* max-width: 250px; /* 최대 너비를 지정해 더 이상 커지지 않도록 설정 */
+ /* transition: transform 0.2s ease-in-out;
 }
+*/
 
 .portfolio-item figcaption {
   position: absolute;
